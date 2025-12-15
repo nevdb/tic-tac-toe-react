@@ -25,7 +25,8 @@ code {
     monospace;
 }
 
-#game-container {
+#game-container,
+#feedback-container {
   max-width: 45rem;
   margin: 3rem auto;
   padding: 2rem;
@@ -47,9 +48,16 @@ code {
 
 #players li {
   display: flex;
+  justify-content: space-around;
   align-items: center;
   width: 50%;
   border: 2px solid transparent;
+}
+
+#players li span {
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
 }
 
 #players.highlight-player li.active {
