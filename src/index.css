@@ -122,3 +122,16 @@ ol {
   border: solid;
   animation: pulse 2s infinite ease-in-out;
 }
+
+#game-over {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(#7c7850, #534f30);
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
